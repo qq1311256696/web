@@ -1,0 +1,94 @@
+{
+	"data":{
+		"comChajian":[
+			{
+				"name": "url",
+				"jsName": "url.js",
+				"title": "axios地址配置",
+				"message": "vue、axios、url"
+			},
+			{
+				"name": "request",
+				"jsName": "request.js",
+				"title": "axios响应、请求拦截",
+				"message": "vue、axios、request"
+			},
+			{
+				"name": "pc-axios",
+				"jsName": "axios.js",
+				"title": "axios请求方式-PC",
+				"message": "vue、axios、pc-axios"
+			},
+			{
+				"name": "app-axios",
+				"jsName": "axios.js",
+				"title": "axios请求方式-APP",
+				"message": "vue、axios、app-axios"
+			},
+			{
+				"name": "pc-response",
+				"jsName": "response.js",
+				"title": "axios错误反馈-PC",
+				"message": "vue、axios、pc-response"
+			},
+			{
+				"name": "app-response",
+				"jsName": "response.js",
+				"title": "axios请求方式-APP",
+				"message": "vue、axios、app-response"
+			},
+			
+			{
+				"name": "router",
+				"jsName": "router.js",
+				"title": "router路由",
+				"message": "vue、router"
+			},
+			{
+				"name": "getRouter",
+				"jsName": "getRouter.js",
+				"title": "router路由配置",
+				"message": "vue、router、getRouter"
+			},
+			{
+				"name": "pc-index",
+				"jsName": "index.js",
+				"title": "router路由跳转-PC",
+				"message": "vue、router、index"
+			},
+			{
+				"name": "app-index",
+				"jsName": "index.js",
+				"title": "router路由跳转-APP",
+				"message": "vue、router、index"
+			}
+		],
+		"comZujian":[
+			
+		],
+		"pcChajian":[
+			
+		],
+		"pcZujian":[
+			{
+				"name": "pcTable",
+				"jsName": "pcTable",
+				"title": "PC-表格",
+				"message": "vue、iview、table"
+			}
+		],
+		"pcPage":[
+			
+		],
+		"appChajian":[
+			
+		],
+		"appZujian":[
+			
+		],
+		"appPage":[
+			
+		]
+	},
+	"success":true
+}

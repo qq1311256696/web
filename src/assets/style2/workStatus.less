@@ -1,0 +1,106 @@
+.workStatus{
+        width: 100%;
+        height: 100%;
+        .workStatusCon{
+            width: 100%;
+            height: 95%;
+            margin-top: 40px;
+            background: #F3F4F8;
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+        }
+        .time{
+            .check{
+                padding:6px 0;
+                color:#fff;
+                font-size: 14px;
+                background:#508CEE;
+            }
+            .timerow{
+                border-bottom: 1px solid #E6E6F2;
+                .van-col--6{
+                    margin-top:7px;
+                }
+                .select_item{
+                     background-color: #fff;
+                     color: #333;
+                     font-size: 14px;
+                     padding: 10px 0;
+                     .van-field .van-cell__title{
+                        text-align: left;
+                     }
+                     .van-field__control{
+                        text-align: right;
+                        color: #333;
+                     }
+                     .van-field__control:disabled{
+                        text-align: right;
+                        color: #333;
+                     }
+                     .van-field__clear, .van-field__icon{
+                        margin-right: 0px;
+                     }
+                }
+                .van-cell:not(:last-child)::after{
+                    border-bottom: 0px solid #ebedf0;
+                }
+            }
+        }
+        .echart{
+            background: #fff;
+            .title{
+                text-align: left;
+                margin-left: 20px;
+                font-size: 15px;
+                height: 30px;
+                line-height: 30px;
+                color:#333;
+            }
+            .con{
+                height: 190px;
+            }
+        }
+        .table{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            background: white;
+            margin-top: 10px;
+            .title{
+                text-align: left;
+                margin-left: 20px;
+                font-size: 15px;
+                height: 30px;
+                line-height: 30px;
+                color:#333;
+            }
+            .head{
+                font-size:16px;
+                background:#F8F9FB;
+                padding: 7px 0;
+            }
+            .body{
+                flex:1;
+                overflow-y: auto;
+                .tablecon{
+                    font-size: 14px;
+                    padding: 18px 0;
+                    border-bottom: 1px solid #E6E6F2;
+                    color: #333;
+                    .center{
+                        margin-top:20px;
+                    }
+                    .eq0{
+                        color: #08C890;
+                    }
+                    .eq1{
+                        color: #FD4A4A;
+                    }
+                    .eq2{
+                        color: #F4BC63;
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,61 @@
+.gantt{
+        height:100%;
+        width:100%;
+        background: #1B1E2A;
+        .name{
+            height:40px;
+            line-height:40px;
+            color:#5596FF;
+            text-align: left;
+            padding-left: 20px;
+        }
+        .ganttcon{
+            height:90%;
+            .gantt_task_line,.gantt_task_progress{
+                background-color: #5BC594;
+                border: 1px solid #5BC594;
+            }
+            /*左侧标题*/
+            .gantt_grid div{
+                background: #222432;
+                color: #DAE2EB;
+            }
+            .gantt_layout_cell_border_right{
+                border-right: 1px solid #222432;
+            }
+            .gantt_task .gantt_task_scale .gantt_scale_cell{
+                border-right: 1px solid #222432;
+            }
+            .gantt_task_cell{
+                border-right: 1px solid #1B1E2A;
+            }
+            /*内容表头*/
+            .gantt_task_scale{
+                background: #222432;
+            }
+            /*内容区*/
+            .gantt_data_area,.gantt_task_row{
+                background: #1B1E2A;
+            }
+        }
+        .finish{
+            position: absolute;
+            bottom: 0px;
+            border: 1px solid #232837;
+            width: 100%;
+            padding: 4px 0;
+            background: #232837;
+            .van-button{
+                height:26px;
+                line-height: 26px;
+                margin:0 10px;
+            }
+            .van-button--normal{
+                padding:0;
+                width: 80%;
+                color: #91A0BA;
+                background: #232837;
+                border: 1px solid #91A0BA;
+            }
+        }
+}

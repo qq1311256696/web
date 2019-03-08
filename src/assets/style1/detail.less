@@ -1,0 +1,163 @@
+.detail2{
+    height:100%;
+    width:100%;
+    background:black;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    .tool{
+        margin-top: 40px;
+        background: #1B1E2A;
+        .time{
+            .check{
+                padding:6px 0;
+                color:#5E8AE7;
+                font-size: 14px;
+            }
+            .timerow{
+                border-bottom: 2px solid #232837;
+                .van-col--6{
+                    margin-top:7px;
+                }
+                .select_item{
+                     background-color: #1B1E2A;
+                     color: #5D718C;
+                     font-size: 14px;
+                     padding: 10px 0;
+                     .van-field .van-cell__title{
+                        text-align: left;
+                     }
+                     .van-field__control{
+                        text-align: right;
+                        color: #5D718C;
+                     }
+                     .van-field__control:disabled{
+                        text-align: right;
+                        color: #5D718C;
+                     }
+                     .van-field__clear, .van-field__icon{
+                        margin-right: 0px;
+                     }
+                }
+                .van-cell:not(:last-child)::after{
+                    border-bottom: 0px solid #ebedf0;
+                }
+            }
+        }
+        .row{
+            padding: 8px 0;
+            border-bottom: 2px solid #232837;
+            .van-search .van-cell{
+                padding: 2px;
+                background: #1B1E2A;
+                .van-field__control{
+                    color:#8E939A;
+                }
+            }
+            .search-input{
+                background: #1B1E2A!important;
+            }
+            .van-col--5,.van-col--4{
+                margin-top:7px;
+                text-align: left;
+                padding-left: 12px
+            }
+            .van-col--20,.van-col--19{
+                text-align: left;
+                overflow-x: auto;
+                /*.over{
+                    width:500px;
+                }*/
+            }
+            .van-col{
+                font-size: 14px;
+                .van-button--normal{
+                    font-size: 14px;
+                    margin: 5px 2px;
+                    width: 64px;
+                    height: 24px;
+                    line-height: 24px;
+                    padding: 0;
+                    color: #5D718C;
+                    background-color: #232837;
+                    border: 1px solid #232837;
+                }
+                .van-radio{
+                    border: 1px solid #252837;
+                    margin: 5px 2px;
+                    padding: 3px 5px;
+                    background: #252837;
+                    width: 64px;
+                    height: 24px;
+                    line-height: 24px;
+                    padding: 0;
+                    display: inline-block;
+                    text-align: center;
+                    .van-radio__input{
+                        width:0;
+                        font-size: 0px;
+                    }
+                    .van-radio__label{
+                        margin-left: 0px;
+                        color:#5D718C;
+                        width:100%;
+                    }
+                }
+                .active{
+                    border: 1px solid #5494FC;
+                    .van-radio__label{
+                        margin-left: 0px;
+                        color:#5494FC;
+                    }
+                }
+                .inActive{
+                    color:#252837;
+                }
+            }
+        }
+    }
+    .title{
+        font-size: 14px;
+        color: #7790AF;
+        text-align: left;
+        padding: 0 10px;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 20px;
+        background: #1B1E2A;
+        margin-top: 10px;
+        span{
+            margin-left: 33%;
+            background: #EB544D;
+            padding: 4px 14px;
+            color: #DAE2EB;
+            border-radius: 20px;
+        }
+    }
+    .table{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        background: #1B1E2A;
+        .head{
+            font-size:14px;
+            background: #222432;
+            padding: 7px 0;
+        }
+        .body{
+            flex:1;
+            overflow-y: auto;
+            .tablecon{
+                font-size: 14px;
+                padding: 18px 0;
+                border-bottom: 1px solid #2D3F61;
+                color: #DAE2EB;
+            }
+        }
+    }
+    .van-popup--left{
+        width:100%;
+        height:92%;
+        top: 54%;
+    }
+}

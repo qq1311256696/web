@@ -1,0 +1,15 @@
+{
+	"data":{
+		"yangzhengbing": {
+			"name": "yangzhengbing",
+			"pwd": "123456",
+			"token": "20181221111850"
+		},
+		"maxiaoqu": {
+			"name": "maxiaoqu",
+			"pwd": "maxiaoqu",
+			"token": "20181221112011"
+		}
+	},
+	"success":true
+}

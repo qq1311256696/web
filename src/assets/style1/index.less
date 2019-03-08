@@ -1,0 +1,37 @@
+.index{
+    height:100%;
+    width:100%;
+    background: black;
+    .van-tabs{
+        height:100%;
+        width:100%;
+        margin-top: 40px;
+        position: fixed;
+        .van-tabs__line{
+            height:2px;
+            background-color: #508CED;
+        }
+        .van-tab{
+            background:#1B1E2A;
+            color:#92A7C4;
+        }
+        .van-hairline--top-bottom::after{
+            border-width: 0px 0;
+        }
+        .van-tabs__nav{
+            background-color:#1B1E2A;
+        }
+        .van-tab--active{
+            color:#508CED;
+        }
+        .van-tabs__content{
+            margin-top:10px;
+            height:98%;
+            background:#1B1E2A;
+            .van-tabs .van-tab__pane{
+                height:100%;
+                width: 100%;
+            }
+        }
+    }
+}
