@@ -16,7 +16,7 @@
         "echarts": "^4.2.0-rc.2",
         "extract-text-webpack-plugin": "^3.0.2",
         "iview": "^3.2.0",
-        "vant": "^1.5.5",
+        "vant": "^2.4.1",
         "vue": "^2.5.17",
         "vue-router": "^3.0.2",
         "vue-selecttree": "^1.0.4",
